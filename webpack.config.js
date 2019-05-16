@@ -6,6 +6,9 @@ module.exports = {
     path: path.join(__dirname, '/build'),
     filename: './bundle.js',
   },
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", ".json"]
+  },
   mode: process.env.NODE_ENV,
   module: {
     rules: [

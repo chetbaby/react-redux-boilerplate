@@ -1,4 +1,4 @@
-import * as types from '../constants/actionTypes';
+import { actionTypes } from '../constants/actionTypes';
 
 const initialState = {
   user: {
@@ -18,7 +18,7 @@ const initialState = {
 
 const dataReducer = (state = initialState, action) => {
   switch (action.type) {
-    case types.GET_DATA:
+    case actionTypes.GET_DATA:
       console.log('this is the reducer');
       return {};
 
@@ -28,3 +28,4 @@ const dataReducer = (state = initialState, action) => {
 };
 
 export default dataReducer;
+ 

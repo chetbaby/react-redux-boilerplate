@@ -1,0 +1,7 @@
+export enum actionTypes {
+    GET_DATA = 'GET_DATA',
+    SAVE_SEARCH = 'SAVE_SEARCH',
+    SAVE_IMAGE = 'SAVE_IMAGE',
+    ADD_TO_COLLECTION = 'ADD_TO_COLLECTION'
+} 
+
